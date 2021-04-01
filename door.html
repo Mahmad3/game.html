@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Game</title>
+  <link rel="icon" href="icons/favicon.png">
+  <link rel="stylesheet" href="storage.css">
+
+  <script>
+    function inputController() {
+      if (input1.value == 'key') {
+        parent.location = 'win.html';
+      } else {
+        parent.location = 'lose.html';
+      }
+    }
+  </script>
+
+
+</head>
+
+<body class="store">
+
+  <audio src="icons/laugh.mp3" autoplay ="autoplay">
+
+  </audio>
+
+  <h1>FRONT DOOR 🚪</h1>
+  <img src="icons/door.gif" width="600">
+
+  <p>Great work! Search for the right tool to get the door opened and win this game.</p>
+
+  <div>
+    <label>Active projects</label>
+    </div>
+    <div >
+
+
+    <select id="input1">
+      <option selected> Choose...</option>
+      <option>Hammer</option>
+      <option>key</option>
+      <option>Wrench</option>
+      <option>Handsaw</option>
+      <option>Gun</option>
+
+
+
+    </select>
+
+    <input type="button" onClick="inputController()" value='Select'>
+</div>
+</body>
+
+</html>

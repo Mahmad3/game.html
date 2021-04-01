@@ -1,0 +1,28 @@
+body{
+  background-color: #222831;
+}
+ul{
+list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+.main{
+  color: white;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
+
+ .room{
+
+  justify-content: center;
+  display: flex;
+}
+.color{
+  color: white;
+}
